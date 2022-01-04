@@ -1,0 +1,7 @@
+- name: Owner
+  kind: User
+  values: []
+- name: Date
+  kind: String
+- name: Partecipants
+  kind: String

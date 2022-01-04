@@ -1,0 +1,48 @@
+- name: Issuer
+  kind: User
+  values: []
+  default: ""
+- name: Owner
+  kind: User
+  values: []
+  default: ""
+- name: Status
+  kind: Tag
+  values:
+  - '#Open'
+  - '#Assigned'
+  - '#Test'
+  - '#Reopen'
+  - '#Resolved'
+  default: '#Created'
+- name: SLA
+  kind: Enum
+  values:
+  - "2 hour"
+  - "4 hour"
+  - "1 day"
+  - "2 day"
+  - "3 day"
+  - "5 day"
+  - "2 weeks"
+default: '1 day'
+- name: Priority
+  kind: Tag
+  values:
+  - '#LowPriority'
+  - '#MediumPriority'
+  - '#HighPriority'
+  - '#DramaPriority'
+  default: '#Draft'
+- name: Severity
+  kind: Tag
+  values:
+  - '#EnhancementSeverity'
+  - '#CosmeticSeverity'
+  - '#LowSeverity'
+  - '#MediumSeverity'
+  - '#HighSeverity'
+  default: '#MediumSeverity'
+- name: Release
+  kind: String
+  default: ""

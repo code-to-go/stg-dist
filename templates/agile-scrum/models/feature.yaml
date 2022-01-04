@@ -1,0 +1,37 @@
+- name: Owner
+  kind: User
+  values: []
+- name: Status
+  kind: Tag
+  values:
+  - '#Draft'
+  - '#Started'
+  - '#Test'
+  - '#Done'
+- name: Points
+  kind: Enum
+  values:
+  - "1"
+  - "2"
+  - "3"
+  - "5"
+  - "7"
+  - "9"
+  - "12"
+  - "15"
+  - "21"
+- name: Priority
+  kind: Tag
+  values:
+  - '#LowPriority'
+  - '#MediumPriority'
+  - '#HighPriority'
+  - '#DramaPriority'
+- name: Start
+  kind: Date
+- name: End
+  kind: Date
+- name: Progress
+  kind: Int
+- name: Epic
+  kind: String
