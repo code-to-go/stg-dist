@@ -1,0 +1,2 @@
+docker pull ghcr.io/code-to-go/stg:0.5.0
+docker run -p 80:8375 -v stgrepo:/root stg 
