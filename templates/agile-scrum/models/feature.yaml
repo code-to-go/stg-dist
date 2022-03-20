@@ -31,7 +31,3 @@
   kind: Date
 - name: End
   kind: Date
-- name: Progress
-  kind: Int
-- name: Epic
-  kind: String
