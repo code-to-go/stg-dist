@@ -21,7 +21,7 @@ Because I guess it is half the way to be very useful and bugs free.
 __Suggestions are Welcome!__
 
 ## Where con I find it?
-- A demo version without permanent storage on AWS [https://demo.scrum-to-go.com/]
+- A demo version without permanent storage on AWS [https://demo.scrum-to-go.com/]. Credentials: demo/123
 - Local install for Linux and Windows on https://github.com/code-to-go/stg-dist
 - Docker image on [ghcr.io/code-to-go/stg:0.5.0]. An easy way is to download and run the file [https://raw.githubusercontent.com/code-to-go/stg-dist/main/stg-docker]
  
